@@ -1,0 +1,125 @@
+div ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.navbar{
+    /*border:1px solid black;*/
+    position:absolute;
+    top:10px;
+    right:0;
+    width:100%;
+    margin:0 auto;
+    /*margin: 5px 0 0 0;*/
+}
+.navbut{
+    /*border:1px solid black;*/
+    float:right;
+}
+.navbut div{
+    /*border:1px solid black;*/
+    float:left;
+}
+#name, #gmail, #img, #apps{
+    position:relative;
+    top:5px;
+}
+
+#bell{
+    position: relative;
+    top: 3px;
+}
+.pic{
+    width:28px;
+    height:28px;
+    border-radius: 50%;
+}
+a{
+    font-family: Arial, sans-serif;
+    font-size:13px;
+    text-decoration: none;
+    color: #404040;
+    padding:8px;
+}
+a:hover {
+  text-decoration: underline;
+}
+#logosearch{
+    /*border:1px solid black;*/
+    width:601px;
+    height:280px;
+    position:absolute;
+    top:50%;
+    left:50%;
+
+    margin: -160px 0 0 -290px;
+
+}
+#imgloc{
+    height:92px;
+    width:272px;
+    margin:auto;
+    position: relative;
+    top:-20px;
+}
+
+#searchbar{
+    width:600px;
+    height:30px;
+    margin:auto;
+}
+div input{
+    width: 598px;
+    height: 25px;
+}
+
+#buttons{
+    height:37px;
+    width:285px;
+    margin:auto;
+    position: relative;
+    top: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+}
+#leftbut, #rightbut{
+
+    font-family: Arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #757575;
+}
+#leftbut{
+    position:relative;
+    height:35px;
+    width:126px;
+
+}
+#rightbut{
+    position:relative;
+    left:10px;
+    height:35px;
+    width:144px;
+}
+
+.footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:40px;
+    background-color: #f2f2f2;
+}
+
+.footer li{
+    display:inline-block;
+}
+.left_footer,.right_footer{
+    position:relative;
+    top:10px;
+}
+.left_footer{
+    float:left;
+}
+.right_footer{
+    float:right;
+}
